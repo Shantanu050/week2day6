@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JuPZ+0WrNJ2PdjnLPDw5PiXpoCNmckqDRf2Von/3hB22WH6FiNfw491YIMWNw0YkQ7T6tWyYJVZzYZGx0gl2CA==",
+  "dgSpecHash": "qpv9l9TISU7/Bm0Dr7WXfixWPUIcZwPBaAIYgCEbfrsxQIWDq/hC51ly00Qua/EifZ67Zrk3lLf0V3I+P/vyHA==",
   "success": true,
-  "projectFilePath": "/home/coder/project/workspace/Week2_day6_s2_3_own/dotnetapp/dotnetapp.csproj",
+  "projectFilePath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj",
   "expectedPackageFiles": [
     "/home/coder/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/coder/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",

@@ -17,7 +17,7 @@ public class OrderController:Controller
 
   public IActionResult DisplayProductWithCat()
   {
-    var data=from p in context.Products select new{p.ProductName,p.Category.CategoryName};
+    var data=context.Products.Include("Category").ToList();
     return View(data);
   }
 

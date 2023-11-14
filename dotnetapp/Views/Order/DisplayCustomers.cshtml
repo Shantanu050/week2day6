@@ -1,15 +1,21 @@
-@model Customer
+@model IEnumerable<Customer>
 <table class="table">
     <thead>
-        <th></th>
-        <th>Category</th>
+        <th>Customer Id</th>
+        <th>Company Name</th>
+        <th>Contact Name</th>
+        <th>City</th>
+        <th>Country</th>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
             <tr>
-                <td>@item.ProductName</td>
-                <td>@item.Category.CategoryName</td>
+                <td>@item.CustomerId</td>
+                <td>@item.CompanyName</td>
+                <td>@item.ContactName</td>
+                <td>@item.City</td>
+                <td>@item.Country</td>
             </tr>
         }
     </tbody>

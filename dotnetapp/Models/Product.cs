@@ -8,6 +8,9 @@ public class Product
     public string QuantityPerUnit{get;set;}
     public float UnitPrice{get;set;}
     public int UnitsinStock{get;set;}
-    
+    public int UnitsOnOrder{get;set;}
+    public int RecorderLevel{get;set;}
+    public int Discontinued{get;set;}
+
 
 }

@@ -1,0 +1,16 @@
+@model Product
+<table class="table">
+    <thead>
+        <th>Product</th>
+        <th>Category</th>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Category.CategoryName</td>
+            </tr>
+        }
+    </tbody>
+</table>
